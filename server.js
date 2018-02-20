@@ -9,18 +9,18 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('article-one', function(req,res)
-{res.sendFile("article one requested an dwill be served here ");
+app.get('/article-one', function(req,res)
+{res.send("article one requested an dwill be served here ");
     
 });
 
-app.get('article-two', function(req,res)
-{res.sendFile("article two requested an dwill be served here ");
+app.get('/article-two', function(req,res)
+{res.send("article two requested an dwill be served here ");
     
 });
 
-app.get('article-three', function(req,res)
-{res.sendFile("article three requested an dwill be served here ");
+app.get('/article-three', function(req,res)
+{res.send("article three requested an dwill be served here ");
     
 });
 app.get('/ui/style.css', function (req,res) {
