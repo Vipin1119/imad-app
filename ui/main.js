@@ -1,5 +1,5 @@
 var button= document.getElementById('counter');
-var counter =0;
+var counter=0;
 button.onclick=function(){
   //  make the req to the counter end point 
 //    capture the response and store it in a variable 
